@@ -34,12 +34,11 @@ Icons powered by lucide-react and react-icons.
 ## Learn More
 To learn more about Next.js and how to extend this project, check out:
 
-Next.js Documentation
+- Next.js Documentation <https://nextjs.org/docs>
 
-Learn Next.js
+- Learn Next.js <https://nextjs.org/learn>
 
-Tailwind CSS Documentation
-
+- Tailwind CSS Documentation <https://tailwindcss.com/docs/installation/using-vite>
 ---
 
 ## Deployment
