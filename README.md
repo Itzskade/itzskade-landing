@@ -23,11 +23,11 @@ You can start editing the page by modifying src/app/page.tsx. The page will auto
 ## Features
 Clean and responsive landing page showcasing links to ItzSkade's social profiles and contact info.
 
-Built with Next.js 15 and TypeScript.
+- Built with Next.js 15 and TypeScript.
 
-Styled using Tailwind CSS.
+- Styled using Tailwind CSS.
 
-Icons powered by lucide-react and react-icons.
+- Icons powered by lucide-react and react-icons.
 
 ---
 
