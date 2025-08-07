@@ -44,7 +44,7 @@ export default function Home() {
         <div className="text-center mb-10">
           <h1 className="text-5xl font-bold">Roger Marín</h1>
           <p className="text-xl text-gray-400 mt-2">
-            Entusiasta de la tecnología
+            Technology enthusiast
           </p>
         </div>
         <div className="grid grid-cols-2 gap-6">
