@@ -27,7 +27,7 @@ const links = [
   },
   {
     name: "Instagram",
-    url: "https://instagram.com/itzskade",
+    url: "https://instagram.com/y2k.skd",
     icon: <FaInstagram className="w-10 h-10 text-white" />,
   },
   {
