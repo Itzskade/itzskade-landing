@@ -28,18 +28,16 @@ export default function Home() {
           <h1 className="text-5xl font-bold">Roger Marín</h1>
           <p className="text-xl text-gray-400 mt-2">Technology enthusiast</p>
         </div>
-        <div className="grid grid-cols-2 gap-6">
+        <div className="flex flex-wrap justify-center gap-6">
           {links.map((link, i) => (
             <a
               href={link.url}
               target="_blank"
               rel="noopener noreferrer"
               key={link.name}
-              className={
-                i === links.length - 1 ? "col-span-2 flex justify-center" : ""
-              }
+              className={i === links.length - 1 ? "w-full flex justify-center" : ""}
             >
-              <Card className="rounded-2xl bg-[#0d1117] hover:bg-[#1f2937] transition duration-300 border border-gray-600 shadow-md w-full max-w-[220px]">
+              <Card className="rounded-2xl bg-[#0d1117] hover:bg-[#1f2937] transition duration-300 border border-gray-600 shadow-md w-[220px]">
                 <CardContent className="flex flex-col items-center justify-center p-5">
                   {link.icon}
                   <span className="mt-3 text-white text-lg font-medium">
