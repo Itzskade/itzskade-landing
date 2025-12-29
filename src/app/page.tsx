@@ -11,12 +11,12 @@ const links = [
   {
     name: "LinkedIn",
     url: "https://www.linkedin.com/in/Itzskade",
-    icon: <Linkedin className="w-10 h-10 text-blue" />,
+    icon: <Linkedin className="w-10 h-10 text-white" />,
   },
   {
     name: "Email",
     url: "mailto:itzskade@gmail.com",
-    icon: <Mail className="w-10 h-10 text-red" />,
+    icon: <Mail className="w-10 h-10 text-white" />,
   },
 ];
 
@@ -26,19 +26,20 @@ export default function Home() {
       <div className="bg-[#161b22] p-10 rounded-3xl shadow-2xl w-full max-w-xl border border-gray-700">
         <div className="text-center mb-10">
           <h1 className="text-5xl font-bold">Roger Marín</h1>
-          <p className="text-xl text-gray-400 mt-2">
-            Technology enthusiast
-          </p>
+          <p className="text-xl text-gray-400 mt-2">Technology enthusiast</p>
         </div>
         <div className="grid grid-cols-2 gap-6">
-          {links.map((link) => (
+          {links.map((link, i) => (
             <a
               href={link.url}
               target="_blank"
               rel="noopener noreferrer"
               key={link.name}
+              className={
+                i === links.length - 1 ? "col-span-2 flex justify-center" : ""
+              }
             >
-              <Card className="rounded-2xl bg-[#0d1117] hover:bg-[#1f2937] transition duration-300 border border-gray-600 shadow-md">
+              <Card className="rounded-2xl bg-[#0d1117] hover:bg-[#1f2937] transition duration-300 border border-gray-600 shadow-md w-full max-w-[220px]">
                 <CardContent className="flex flex-col items-center justify-center p-5">
                   {link.icon}
                   <span className="mt-3 text-white text-lg font-medium">
