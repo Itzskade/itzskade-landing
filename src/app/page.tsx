@@ -20,21 +20,6 @@ const links = [
     url: "mailto:itzskade@gmail.com",
     icon: <Mail className="w-10 h-10 text-white" />,
   },
-  {
-    name: "Discord",
-    url: "https://discord.com/invite/d74nrXcUV3",
-    icon: <FaDiscord className="w-10 h-10 text-white" />,
-  },
-  {
-    name: "Instagram",
-    url: "https://instagram.com/y2k.skd",
-    icon: <FaInstagram className="w-10 h-10 text-white" />,
-  },
-  {
-    name: "X (Twitter)",
-    url: "https://x.com/itzskade",
-    icon: <FaXTwitter className="w-10 h-10 text-white" />,
-  },
 ];
 
 export default function Home() {
