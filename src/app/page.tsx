@@ -1,8 +1,6 @@
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Mail, Github, Linkedin } from "lucide-react";
-import { FaDiscord, FaInstagram } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 
 const links = [
   {
