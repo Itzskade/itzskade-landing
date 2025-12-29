@@ -13,12 +13,12 @@ const links = [
   {
     name: "LinkedIn",
     url: "https://www.linkedin.com/in/Itzskade",
-    icon: <Linkedin className="w-10 h-10 text-white" />,
+    icon: <Linkedin className="w-10 h-10 text-blue" />,
   },
   {
     name: "Email",
     url: "mailto:itzskade@gmail.com",
-    icon: <Mail className="w-10 h-10 text-white" />,
+    icon: <Mail className="w-10 h-10 text-red" />,
   },
 ];
 
