@@ -15,7 +15,7 @@ const links = [
   },
   {
     name: "Email",
-    url: "mailto:itzskade@gmail.com",
+    url: "mailto:rogermarinnavarro@hotmail.com",
     icon: <Mail className="w-10 h-10 text-white" />,
   },
 ];
