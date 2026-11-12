@@ -10,7 +10,7 @@ const links = [
   },
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/Itzskade",
+    url: "https://www.linkedin.com/in/0xrogermarin",
     icon: <Linkedin className="w-10 h-10 text-white" />,
   },
   {
